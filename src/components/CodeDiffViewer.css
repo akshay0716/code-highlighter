@@ -1,0 +1,23 @@
+/* CodeDiffViewer.css */
+.diff-viewer {
+    display: flex;
+    width: 100%;
+  }
+  
+  .diff-viewer .code-block {
+    display: flex;
+    width: 50%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+  
+  .diff-viewer .code-block .line {
+    white-space: nowrap; /* Prevent line breaks */
+  }
+  
+  .diff-viewer .left,
+  .diff-viewer .right {
+    flex: 1;
+    min-width: 0;
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+  
